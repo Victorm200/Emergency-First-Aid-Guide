@@ -1,11 +1,11 @@
-/* Reset default browser styles */
+/* Reset default styles */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Body Styling */
+/* Body */
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
@@ -29,31 +29,75 @@ nav ul {
   list-style: none;
   display: flex;
   justify-content: center;
-  gap: 15px;
-  margin-bottom: 20px;
   flex-wrap: wrap;
+  gap: 10px;
+  margin: 15px 0;
 }
 
 nav a {
   text-decoration: none;
   color: #c0392b;
   font-weight: bold;
-  padding: 5px 10px;
-  border:
+  padding: 6px 12px;
+  border: 2px solid #c0392b;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  background-color: #c0392b;
+  color: white;
+}
+
+/* Intro section */
+.intro {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Tip sections (accordion style) */
+.tip {
+  margin: 15px 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
 .tip-title {
   background-color: #c0392b;
   color: white;
-  padding: 10px;
+  padding: 15px;
   cursor: pointer;
   font-weight: bold;
-  border-radius: 5px 5px 0 0;
 }
 
 .tip-content {
+  background-color: white;
+  padding: 15px;
   display: none;
-  background-color: #fff;
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-top: none;
-  border-radius: 0 0 5px 5px;
+  border-top: 1px solid #ccc;
+}
+
+/* Emergency section */
+.emergency {
+  background-color: #ffe5e5;
+  padding: 15px;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+
+.emergency ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.emergency li {
+  margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  color: #888;
 }
