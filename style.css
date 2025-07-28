@@ -40,3 +40,20 @@ nav a {
   font-weight: bold;
   padding: 5px 10px;
   border:
+.tip-title {
+  background-color: #c0392b;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px 5px 0 0;
+}
+
+.tip-content {
+  display: none;
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-top: none;
+  border-radius: 0 0 5px 5px;
+}
