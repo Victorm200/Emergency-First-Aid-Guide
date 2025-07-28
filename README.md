@@ -32,5 +32,40 @@ A simple, mobile-friendly website that teaches people how to respond to common e
 More tips coming soon!
 
 ---
-# Emergency-First-Aid-Guide
-A simple, clean website to educate people on how to give first aid in different emergencies.
+
+## 💻 How to Use
+
+1. *Download or clone this repo*
+2. 2. *Open the project folder*
+
+3. *Open index.html in your browser*
+
+4. Start learning life-saving first aid!
+
+---
+
+## 🛠 Built With
+
+- HTML5  
+- CSS3  
+- JavaScript (for accordion and dark mode)
+
+---
+
+## 🙋‍♂️ About the Developer
+
+*Victor Mwaniki*  
+Paramedic student from Nairobi, passionate about emergency health and helping others learn first aid.  
+Built this website to spread lifesaving knowledge.
+
+---
+
+## 🤝 Contribution
+
+Pull requests are welcome! If you want to add new emergencies or improve the UI, feel free to fork and submit changes.
+
+---
+
+## 📜 License
+
+This project is free to use and share. Attribution is appreciated! 😊
