@@ -4,7 +4,7 @@ const titles = document.querySelectorAll(".tip-title");
 titles.forEach(title => {
   title.addEventListener("click", () => {
     const content = title.nextElementSibling;
-    content.style.display = (content.style.display === "block") ? "none" : "block";
+    content.classList.toggle("show");
   });
 });
 // Dark mode toggle
