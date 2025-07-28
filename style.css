@@ -73,9 +73,11 @@ nav a:hover {
 
 .tip-content {
   background-color: white;
-  padding: 15px;
-  display: none;
+  padding: 0 15px;
+  max-height: 0;
+  overflow: hidden;
   border-top: 1px solid #ccc;
+  transition: max-height 0.4s ease, padding 0.4s ease;
 }
 
 /* Emergency section */
@@ -100,6 +102,30 @@ footer {
   text-align: center;
   margin-top: 40px;
   color: #888;
+}
+/* Animation for accordion (slide down) */
+.tip-content {
+  background-color: white;
+  padding: 0 15px;
+  max-height: 0;
+  overflow: hidden;
+  border-top: 1px solid #ccc;
+  transition: max-height 0.4s ease, padding 0.4s ease;
+}
+
+.tip-content.show {
+  max-height: 500px;
+  padding: 15px;
+}
+
+/* Optional: Page fade-in animation */
+body {
+  animation: fadeIn 0.8s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 /* Dark Mode Toggle Button */
 .dark-mode-toggle {
