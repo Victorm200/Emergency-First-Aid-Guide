@@ -201,3 +201,11 @@ body.dark footer {
   border-radius: 25px;
   outline: none;
 }
+body {
+  animation: fadeIn 0.8s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
