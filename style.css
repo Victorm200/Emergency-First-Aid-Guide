@@ -101,3 +101,62 @@ footer {
   margin-top: 40px;
   color: #888;
 }
+/* Dark Mode Toggle Button */
+.dark-mode-toggle {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.dark-mode-toggle button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.dark-mode-toggle button:hover {
+  background-color: #555;
+}
+
+/* Dark Mode Theme Styles */
+body.dark {
+  background-color: #121212;
+  color: #eee;
+}
+
+body.dark header {
+  background-color: #222;
+  color: #eee;
+}
+
+body.dark .tip-title {
+  background-color: #444;
+}
+
+body.dark .tip-content {
+  background-color: #1e1e1e;
+  color: #ddd;
+}
+
+body.dark nav a {
+  border-color: #fff;
+  color: #fff;
+}
+
+body.dark nav a:hover {
+  background-color: #fff;
+  color: #222;
+}
+
+body.dark .emergency {
+  background-color: #332222;
+  color: #eee;
+}
+
+body.dark footer {
+  color: #bbb;
+}
