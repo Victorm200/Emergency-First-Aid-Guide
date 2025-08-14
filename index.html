@@ -9,159 +9,144 @@
 <body>
   <!-- Header -->
   <header>
-    <h1>Emergency First Aid Guide</h1>
-    <p>Your quick help in critical moments</p>
+    <h1>🚑 Emergency First Aid Guide</h1>
+    <p class="tagline">Quick, Reliable, Life-Saving Tips</p>
   </header>
 
-  <!-- 🌙 Dark Mode Toggle Button -->
-<div class="dark-mode-toggle">
-  <button id="toggle-dark">🌙 Toggle Dark Mode</button>
-</div>
+  <!-- Dark Mode Button -->
+  <div class="dark-mode-toggle">
+    <button id="toggle-dark">🌙 Toggle Dark Mode</button>
+  </div>
 
-<!-- 🔍 Search Bar -->
-<div class="search-bar">
-  <input type="text" id="search-input" placeholder="Search first aid topic..." />
-</div>
+  <!-- Search Bar -->
+  <div class="search-bar">
+    <input type="text" id="search-input" placeholder="Search first aid topic..." />
+  </div>
 
- <!-- Navigation -->
+  <!-- Navigation -->
   <nav>
     <ul>
-      <li><a href="#cpr">CPR</a></li>
-      <li><a href="#burns">Burns</a></li>
-      <li><a href="#bleeding">Bleeding</a></li>
-      <li><a href="#fractures">Fractures</a></li>
-      <li><a href="#choking">Choking</a></li>
+      <li><a href="#cpr">❤️ CPR</a></li>
+      <li><a href="#burns">🔥 Burns</a></li>
+      <li><a href="#bleeding">🩸 Bleeding</a></li>
+      <li><a href="#fractures">🦴 Fractures</a></li>
+      <li><a href="#choking">😮‍💨 Choking</a></li>
+      <li><a href="#snake">🐍 Snake Bite</a></li>
+      <li><a href="#drowning">🌊 Drowning</a></li>
     </ul>
   </nav>
 
-  <!-- Intro Section -->
+  <!-- Intro -->
   <section class="intro">
     <h2>Why First Aid Matters</h2>
-    <p>Knowing basic first aid can save lives. Learn the simple steps you can take before professional help arrives.</p>
+    <p>Knowing basic first aid can save lives before professional help arrives. Learn the steps to handle emergencies with confidence.</p>
   </section>
 
-  <!-- ❤️ CPR -->
-<div class="tip">
-  <div class="tip-title">❤️ CPR</div>
-  <div class="tip-content">
-    <ul>
-      <li>Check for responsiveness by tapping and shouting.</li>
-      <li>If unresponsive and not breathing, call emergency services immediately.</li>
-      <li>Begin chest compressions: place hands in the center of the chest and push hard and fast (about 100–120 compressions per minute).</li>
-      <li>After 30 compressions, give 2 rescue breaths if trained. Tilt the head back, pinch the nose, and blow into the mouth.</li>
-      <li>Continue cycles of 30 compressions and 2 breaths until help arrives or the person starts breathing.</li>
-    </ul>
-  </div>
-</div>
+  <!-- First Aid Tips Section -->
+  <section id="cpr" class="tip">
+    <div class="tip-title">❤️ CPR</div>
+    <div class="tip-content">
+      <ul>
+        <li>Check for responsiveness by tapping and shouting.</li>
+        <li>If unresponsive and not breathing, call emergency services immediately.</li>
+        <li>Begin chest compressions: push hard and fast (100–120 per minute).</li>
+        <li>After 30 compressions, give 2 rescue breaths if trained.</li>
+        <li>Continue until help arrives or the person starts breathing.</li>
+      </ul>
+    </div>
+  </section>
 
-<!-- 🔥 Burns -->
-<div class="tip">
-  <div class="tip-title">🔥 Burns</div>
-  <div class="tip-content">
-    <ul>
-      <li>Cool the burn under running water for at least 10–20 minutes immediately.</li>
-      <li>Remove any clothing or jewelry near the burned area, unless stuck to the skin.</li>
-      <li>Cover the burn with a clean, non-stick dressing or cloth.</li>
-      <li>Do NOT apply ice, butter, oil, or ointments to the burn.</li>
-      <li>Seek medical help if the burn is deep, covers a large area, or is on the face, hands, or genitals.</li>
-    </ul>
-  </div>
-</div>
+  <section id="burns" class="tip">
+    <div class="tip-title">🔥 Burns</div>
+    <div class="tip-content">
+      <ul>
+        <li>Cool under running water for 10–20 minutes.</li>
+        <li>Remove jewelry or clothing near the burn (unless stuck).</li>
+        <li>Cover with a clean, non-stick dressing.</li>
+        <li>Do NOT apply ice, butter, oil, or ointments.</li>
+        <li>Seek medical help if severe or on face/hands/genitals.</li>
+      </ul>
+    </div>
+  </section>
 
-<!-- 🩸 Bleeding -->
-<div class="tip">
-  <div class="tip-title">🩸 Bleeding</div>
-  <div class="tip-content">
-    <ul>
-      <li>Put on gloves if available to protect yourself.</li>
-      <li>Apply firm, direct pressure to the wound using a clean cloth or bandage.</li>
-      <li>If blood soaks through, do not remove the cloth. Add more layers and keep pressing.</li>
-      <li>Keep the injured part raised above the heart if possible.</li>
-      <li>Call emergency services if the bleeding is severe, does not stop, or if there's an embedded object.</li>
-    </ul>
-  </div>
-</div>
+  <section id="bleeding" class="tip">
+    <div class="tip-title">🩸 Bleeding</div>
+    <div class="tip-content">
+      <ul>
+        <li>Wear gloves if available.</li>
+        <li>Apply firm pressure with a clean cloth or bandage.</li>
+        <li>If blood soaks through, add more layers — don’t remove the first.</li>
+        <li>Keep injured part raised above the heart.</li>
+        <li>Call emergency services if bleeding is severe or unstoppable.</li>
+      </ul>
+    </div>
+  </section>
 
-<!-- 🦴 Fractures -->
-<div class="tip">
-  <div class="tip-title">🦴 Fractures</div>
-  <div class="tip-content">
-    <ul>
-      <li>Do not move the affected area unnecessarily to prevent more damage.</li>
-      <li>Stabilize the injured part using a splint or padding if trained.</li>
-      <li>Apply ice wrapped in cloth to reduce swelling and pain.</li>
-      <li>Do not attempt to realign the bone or push it back in place.</li>
-      <li>Call for emergency help and keep the person calm and still.</li>
-    </ul>
-  </div>
-</div>
+  <section id="fractures" class="tip">
+    <div class="tip-title">🦴 Fractures</div>
+    <div class="tip-content">
+      <ul>
+        <li>Do not move the injured area unnecessarily.</li>
+        <li>Stabilize using a splint or padding if trained.</li>
+        <li>Apply ice wrapped in cloth to reduce swelling.</li>
+        <li>Do not try to realign the bone.</li>
+        <li>Call emergency help immediately.</li>
+      </ul>
+    </div>
+  </section>
 
-<!-- 😮‍💨 Choking -->
-<div class="tip">
-  <div class="tip-title">😮‍💨 Choking</div>
-  <div class="tip-content">
-    <ul>
-      <li>Ask the person if they’re choking. If they can’t speak, cough, or breathe, act quickly.</li>
-      <li>Stand behind them and give 5 back blows between their shoulder blades using the heel of your hand.</li>
-      <li>If this doesn’t work, perform 5 abdominal thrusts (Heimlich maneuver): wrap arms around the waist and press into the upper stomach with a quick inward thrust.</li>
-      <li>Repeat the cycle of 5 back blows and 5 thrusts until the object is expelled or the person becomes unresponsive.</li>
-      <li>If they become unresponsive, begin CPR and call for emergency help immediately.</li>
-    </ul>
-  </div>
-</div>
-  
-   <div class="tip">
-  <div class="tip-title">🔥 Burns</div>
-  <div class="tip-content">
-    <ul>
-      <li>Cool the burn under running water for at least 10 minutes.</li>
-      <li>Cover with a clean, non-stick bandage or cloth.</li>
-      <li>Do NOT apply ice, oils, or creams.</li>
-      <li>Call emergency services if burn is severe or on the face, hands, or genitals.</li>
-    </ul>
-  </div>
-</div>
+  <section id="choking" class="tip">
+    <div class="tip-title">😮‍💨 Choking</div>
+    <div class="tip-content">
+      <ul>
+        <li>If the person can’t speak, cough, or breathe — act quickly.</li>
+        <li>Give 5 back blows between shoulder blades.</li>
+        <li>If not effective, perform 5 abdominal thrusts (Heimlich).</li>
+        <li>Repeat until the object is expelled or they become unresponsive.</li>
+        <li>If unresponsive, start CPR and call for help.</li>
+      </ul>
+    </div>
+  </section>
 
-  <div class="tip">
-  <div class="tip-title">🐍 Snake Bite</div>
-  <div class="tip-content">
-    <ul>
-      <li>Keep the person still and calm.</li>
-      <li>Keep the bitten area below heart level.</li>
-      <li>Do not suck the venom or cut the wound.</li>
-      <li>Call emergency services immediately.</li>
-    </ul>
-  </div>
-</div>
+  <section id="snake" class="tip">
+    <div class="tip-title">🐍 Snake Bite</div>
+    <div class="tip-content">
+      <ul>
+        <li>Keep the person calm and still.</li>
+        <li>Keep the bitten limb below heart level.</li>
+        <li>Do not suck the venom or cut the wound.</li>
+        <li>Call emergency services immediately.</li>
+      </ul>
+    </div>
+  </section>
 
-  <div class="tip">
-  <div class="tip-title">🌊 Drowning</div>
-  <div class="tip-content">
-    <ul>
-      <li>Remove the person from water.</li>
-      <li>Check for breathing and pulse.</li>
-      <li>If no breathing, begin CPR immediately.</li>
-      <li>Call for help right away.</li>
-    </ul>
-  </div>
-</div>
+  <section id="drowning" class="tip">
+    <div class="tip-title">🌊 Drowning</div>
+    <div class="tip-content">
+      <ul>
+        <li>Remove the person from the water.</li>
+        <li>Check breathing and pulse.</li>
+        <li>If not breathing, begin CPR immediately.</li>
+        <li>Call for emergency help right away.</li>
+      </ul>
+    </div>
+  </section>
 
-  <!-- Emergency Contacts -->
-  <section class="emergency">
-    <h2>Emergency Contacts (Kenya)</h2>
+  <!-- Emergency Numbers -->
+  <section class="emergency-numbers">
+    <h2>🚨 Emergency Numbers (Kenya)</h2>
     <ul>
-      <li>999 – Police</li>
-      <li>112 – Ambulance</li>
-      <li>Kenya Red Cross: 0700 395 395</li>
+      <li><strong>Ambulance:</strong> 999 / 112</li>
+      <li><strong>Kenya Red Cross:</strong> 0700 395 395</li>
     </ul>
   </section>
 
   <!-- Footer -->
   <footer>
-    <p>Created by Victor Mwaniki © 2025</p>
+    <p>&copy; 2025 Emergency First Aid Guide | Created by Victor Mwaniki</p>
   </footer>
 
-  <!-- Link JavaScript file -->
+  <!-- JS -->
   <script src="script.js"></script>
 </body>
 </html>
